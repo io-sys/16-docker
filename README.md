@@ -5,7 +5,7 @@
 После запуска `nginx` должен отдавать кастомную страницу (достаточно изменить дефолтную страницу `nginx`).  
 
 Папка с решением `docker-nginx`, файлы:
-1. `Dockerfile`
+1. [`Dockerfile`](https://github.com/io-sys/16-docker/blob/master/docker-nginx/Dockerfile)
 2. `nginx.conf`  
 или репозиторий в `Docker Hub`.  
 
