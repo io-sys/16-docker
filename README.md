@@ -49,4 +49,8 @@ git https://github.com/tomzo/docker-kernel-ide
   
 Быстрым поиском в `Google` нашлись 3'и `repository`, где собирают ядро `Linux` под разные `Linux` дистрибутивы внутри `Docker`-контейнера.
 
-
+### 4. 
+Задание со * (звездочкой) 
+Создайте кастомные образы nginx и php, объедините их в docker-compose. 
+После запуска nginx должен показывать php info. 
+Все собранные образы должны быть в docker hub.
