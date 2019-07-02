@@ -10,9 +10,8 @@
 или репозиторий в `Docker Hub`.  
 
 __Проверка__  
-Загрузить образ из `Docker Hub` репозитория.
-
-`docker pull yamondej/nginxcustom:alpine`
+Загрузить образ из `Docker Hub` репозитория.  
+`docker pull yamondej/nginxcustom:alpine`  
 Запустить контейнер из скаченного образа с `Docker Hub`.  
 ```php
 docker run -d --restart=unless-stopped -p 80:80 yamondej/nginxcustom:alpine
