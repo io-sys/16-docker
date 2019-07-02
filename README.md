@@ -4,7 +4,7 @@
 ### 1. Создайте свой кастомный образ `nginx` на базе `alpine`. 
 После запуска `nginx` должен отдавать кастомную страницу (достаточно изменить дефолтную страницу `nginx`).  
 
-Папка с решением `docker-nginx`, файлы:
+Папка с решением [`docker-nginx`](https://github.com/io-sys/16-docker/tree/master/docker-nginx), файлы:
 1. [`Dockerfile`](https://github.com/io-sys/16-docker/blob/master/docker-nginx/Dockerfile)
 2. [`nginx.conf`](https://github.com/io-sys/16-docker/blob/master/docker-nginx/nginx.conf)  
 или репозиторий в `Docker Hub` с образом https://hub.docker.com/r/yamondej/nginxcustom  
