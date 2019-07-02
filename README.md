@@ -9,9 +9,9 @@
 2. `nginx.conf`
 или репозиторий в `Docker Hub`  
 
-__Проверка__
+__Проверка__  
 Загрузить образ из `Docker Hub` репозитория.
-```php
+```
 docker pull yamondej/nginxcustom:alpine
 ```
 Запустить контейнер из скаченного образа с `Docker Hub`.  
