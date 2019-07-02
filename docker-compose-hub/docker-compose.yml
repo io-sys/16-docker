@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+
+  php-fpm:
+    image: php:7.2-fpm
+    container_name: php-fpm
+    volumes:
+      - './www:/var/www/html'
+    networks:
+      - default
+
+  nginx: 
+    image: yamondej/docker-compose-otus:1.0
+    container_name: nginx
+    volumes:
+      - './www:/var/www/html'
+      - './nginx/logs:/var/log/nginx'
+    ports:
+      - "8080:80"
+    depends_on:
+      - php-fpm
+    links:
+      - php-fpm
+    networks:
+      - default
+
+

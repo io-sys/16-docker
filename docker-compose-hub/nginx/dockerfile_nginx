@@ -1,0 +1,42 @@
+FROM alpine:3.9
+
+RUN set -x \
+# Create nginx user/group first, to be consistent throughout docker variants
+    && addgroup -g 101 -S www-data \
+    && adduser -S -D -H -u 101 -h /var/cache/nginx -s /sbin/nologin -G www-data -g www-data www-data \
+    && apk update \
+    && apk upgrade\
+    && apk add nginx \
+        mc \
+        vim \
+        bash \
+        curl \
+    && mkdir -p /var/www/html \
+    && mkdir -p /run/nginx \
+    && chown -R www-data:www-data /var/lib/nginx \
+    && chown -R www-data:www-data /var/www/html \
+
+# Create index.php
+RUN set -eux; \
+   { \
+	echo '<?php'; \
+	echo; \
+	echo 'phpinfo();'; \
+	echo; \
+	echo '?>'; \
+   } | tee /var/www/html/index.php; 
+
+# Forward request and error logs to docker log collector
+# variables.
+RUN chown -R www-data:www-data /var/log/nginx \
+ && ln -sf /dev/stdout /var/log/nginx/access.log \
+ && ln -sf /dev/stderr /var/log/nginx/error.log
+
+COPY nginx.conf /etc/nginx/
+
+EXPOSE 80
+
+STOPSIGNAL SIGTERM
+
+CMD ["nginx", "-g", "daemon off;"]
+

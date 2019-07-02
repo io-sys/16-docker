@@ -1,0 +1,174 @@
+2019/07/01 05:19:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:28
+2019/07/01 05:21:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:28
+2019/07/01 05:28:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:28
+2019/07/01 05:33:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:28
+2019/07/01 05:36:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:28
+2019/07/01 05:55:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:28
+2019/07/01 06:02:18 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:03:28 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:03:44 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:05:17 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:06:29 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:07:05 [emerg] 1#1: host not found in upstream "phpfpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:09:45 [emerg] 1#1: host not found in upstream "phpfpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:17:35 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:19:08 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:22:33 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:23:43 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:25:32 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:26:12 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:35:46 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:36:02 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:44:12 [emerg] 1#1: unknown directive "php-fpm:9000" in /etc/nginx/nginx.conf:18
+2019/07/01 06:46:17 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:47:16 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:48:09 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:49:20 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:52:53 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:53:45 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/nginx.conf:28
+2019/07/01 06:57:23 [emerg] 1#1: host not found in upstream "php01" in /etc/nginx/nginx.conf:28
+2019/07/01 07:00:46 [emerg] 1#1: host not found in upstream "php01" in /etc/nginx/nginx.conf:28
+2019/07/01 07:02:28 [emerg] 1#1: host not found in upstream "php01" in /etc/nginx/nginx.conf:28
+2019/07/01 07:19:41 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:29
+2019/07/01 07:20:41 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:29
+2019/07/01 07:21:57 [error] 6#6: *1 open() "/www/data/favicon.ico" failed (2: No such file or directory), client: 192.168.11.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.11.150:8080", referrer: "http://192.168.11.150:8080/"
+2019/07/01 08:33:46 [emerg] 1#1: unknown directive "er" in /etc/nginx/nginx.conf:1
+2019/07/01 08:34:58 [emerg] 1#1: unknown directive "er" in /etc/nginx/nginx.conf:1
+2019/07/01 08:43:34 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:43:36 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:43:41 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:44:57 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:44:59 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:02 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:53 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:54 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:55 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:56 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:57 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:45:57 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:46:04 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:50:32 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:50:33 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:50:34 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:51:27 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:51:29 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:51:30 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:52:20 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:52:21 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:52:22 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:54:22 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:54:23 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:54:24 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:54:33 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:56:43 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:57:18 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:57:19 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:57:20 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:57:21 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:57:22 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:57:59 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:58:00 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:59:37 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:59:38 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:59:39 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:59:40 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 08:59:41 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "192.168.11.150:8080"
+2019/07/01 09:10:00 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:10:04 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:10:05 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:10:19 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:14:04 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:14:05 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:14:06 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:15:46 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:15:47 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:15:48 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:15:49 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:15:49 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:15:50 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:16:02 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:16:23 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:19:03 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:19:04 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:11 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:13 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:14 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:14 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:15 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:15 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:16 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:16 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:16 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:17 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:17 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:17 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:17 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:18 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:18 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:19 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:19 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:19 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:20 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:20:20 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:22:57 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:22:58 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:22:59 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:23:00 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:23:01 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:23:01 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:23:39 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:23:47 [error] 6#6: *1 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:25:10 [error] 6#6: *12 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:31:46 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:31:47 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:31:48 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:31:49 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:31:53 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:31:53 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:33:19 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:33:21 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:33:22 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:20 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:21 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:22 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:38 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:39 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:40 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:40 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:41 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:41 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:42 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:34:48 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:35:48 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:38:05 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:38:07 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:38:13 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:39:02 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:39:03 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:39:09 [error] 6#6: *13 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:40:08 [notice] 57#57: signal process started
+2019/07/01 09:40:08 [error] 57#57: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2019/07/01 09:40:30 [error] 6#6: *22 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:43:24 [error] 6#6: *23 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:45:26 [error] 6#6: *24 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:46:29 [error] 6#6: *24 directory index of "/www/data/" is forbidden, client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/01 09:48:32 [error] 6#6: *27 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:48:33 [error] 6#6: *28 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:48:34 [error] 6#6: *29 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:48:35 [error] 6#6: *30 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:48:36 [error] 6#6: *31 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:48:37 [error] 6#6: *32 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:48:41 [error] 6#6: *33 directory index of "/www/data/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/01 09:51:37 [notice] 19#19: signal process started
+2019/07/01 09:54:55 [emerg] 14#14: unknown directive "on" in /etc/nginx/nginx.conf:16
+2019/07/01 09:55:53 [notice] 19#19: signal process started
+2019/07/01 09:59:13 [notice] 13#13: signal process started
+2019/07/01 10:00:44 [notice] 19#19: signal process started
+2019/07/01 10:02:33 [notice] 25#25: signal process started
+2019/07/01 10:06:52 [notice] 31#31: signal process started
+2019/07/01 10:07:30 [notice] 39#39: signal process started
+2019/07/01 10:10:58 [notice] 48#48: signal process started
+2019/07/01 10:11:05 [notice] 52#52: signal process started
+2019/07/01 10:16:30 [notice] 61#61: signal process started
+2019/07/02 06:54:38 [error] 6#6: *1 "/www/data/index.html" is not found (2: No such file or directory), client: 192.168.11.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.11.150:8080"
+2019/07/02 09:10:20 [error] 6#6: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.11.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.11.150:8080"
