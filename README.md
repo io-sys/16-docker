@@ -7,7 +7,7 @@
 Папка с решением `docker-nginx`, файлы:
 1. [`Dockerfile`](https://github.com/io-sys/16-docker/blob/master/docker-nginx/Dockerfile)
 2. [`nginx.conf`](https://github.com/io-sys/16-docker/blob/master/docker-nginx/nginx.conf)  
-или репозиторий в `Docker Hub` https://hub.docker.com/r/yamondej/nginxcustom  
+или репозиторий в `Docker Hub` с образом https://hub.docker.com/r/yamondej/nginxcustom  
 
 __Проверка__  
 Загрузить образ из `Docker Hub` репозитория.  
