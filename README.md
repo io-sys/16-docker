@@ -4,75 +4,26 @@
 ### 1. Создайте свой кастомный образ `nginx` на базе `alpine`. 
 После запуска `nginx` должен отдавать кастомную страницу (достаточно изменить дефолтную страницу `nginx`).  
 
-__Dockerfile__
+Папка с решением `docker-nginx`, файлы:
+1. `Dockerfile`
+2. `nginx.conf`
+или репозиторий в `Docker Hub`  
+
+__Проверка__
+Загрузить образ из `Docker Hub` репозитория.
 ```php
-FROM alpine:3.9
-
-RUN set -x \
-# Create nginx user/group first, to be consistent throughout docker variants
-    && addgroup -g 101 -S nginx \
-    && adduser -S -D -H -u 101 -h /var/cache/nginx -s /sbin/nologin -G nginx -g nginx nginx \
-    && apk update \
-    && apk upgrade\
-    && apk add nginx \
-        mc \
-        vim \
-        bash \
-        curl \
-    && mkdir -p /www/data \
-    && mkdir -p /run/nginx \
-    && chown -R nginx:nginx /var/lib/nginx \
-    && chown -R nginx:nginx /www/data \
-# Create index.html
-    && echo "Default web page" > /www/data/index.html \
-# Forward request and error logs to docker log collector
-# variables.
-    && chown -R nginx:nginx /var/log/nginx \
-    && ln -sf /dev/stdout /var/log/nginx/access.log \
-    && ln -sf /dev/stderr /var/log/nginx/error.log
-
-COPY nginx.conf /etc/nginx/
-
-EXPOSE 80
-
-STOPSIGNAL SIGTERM
-
-USER nginx 
-
-CMD ["nginx", "-g", "daemon off;"]
+docker pull yamondej/nginxcustom:alpine
 ```
-  
-__nginx.conf__
+Запустить контейнер из скаченного образа с `Docker Hub`.  
 ```php
-# https://wiki.alpinelinux.org/wiki/Nginx
-user                            nginx;
-worker_processes                auto; # it will be determinate automatically by the number of core
-
-error_log                       /var/log/nginx/error.log warn;
-#pid /var/run/nginx.pid; # it permit you to use /etc/init.d/nginx reload|restart|stop|start
-
-events {
-    worker_connections          1024;
-}
-
-http {
-    include                     /etc/nginx/mime.types;
-    default_type                application/octet-stream;
-    sendfile                    on;
-    access_log                  /var/log/nginx/access.log;
-    keepalive_timeout           3000;
-    server {
-        listen                  80;
-        root                    /www/data;
-        index                   index.html index.htm;
-        server_name             localhost;
-        client_max_body_size    32m;
-        error_page              500 502 503 504  /50x.html;
-        location = /50x.html {
-              root              /var/lib/nginx/html;
-        }
-    }
-}
+docker run -d --restart=unless-stopped -p 80:80 yamondej/nginxcustom:alpine
 ```
+Проверить запущенные контейнеры.
+```php
+docker ps
+```
+Браузер http://192.168.11.150/
+`Default web page`
+
 
 ### 2. 
