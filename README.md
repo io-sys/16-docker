@@ -11,16 +11,18 @@
 
 __Проверка__  
 Загрузить образ из `Docker Hub` репозитория.  
-`docker pull yamondej/nginxcustom:alpine`  
+```php
+docker pull yamondej/nginxcustom:alpine
+```  
 Запустить контейнер из скаченного образа с `Docker Hub`.  
 ```php
 docker run -d --restart=unless-stopped -p 80:80 yamondej/nginxcustom:alpine
 ```
-Проверить запущенные контейнеры.
+Проверить запущенные контейнеры.  
 ```php
 docker ps
 ```
-Браузер http://192.168.11.150/
+Браузер http://192.168.11.150/  
 `Default web page`
 
 
