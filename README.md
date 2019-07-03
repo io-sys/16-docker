@@ -55,3 +55,10 @@ git https://github.com/tomzo/docker-kernel-ide
 Все собранные образы должны быть в `docker hub`.
 
 Папка с решением [`docker-nginx-hub`](https://github.com/io-sys/16-docker/tree/master/docker-compose-hub) https://github.com/io-sys/16-docker/tree/master/docker-compose-hub
+
+```php
+docker-compose build
+docker-compose up
+Ctr+C
+docker-compose start
+```
