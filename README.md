@@ -59,6 +59,6 @@ git https://github.com/tomzo/docker-kernel-ide
 ```php
 docker-compose build
 docker-compose up
-Ctr+C
+Ctrl+C
 docker-compose start
 ```
